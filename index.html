@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery-1.11.3.js"></script>
+	<script src="js/jquery-1.11.3.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Lab 11 | jQuery Theatre</title>
 </head>
 <body>
-
-
+	<div id="seat-wrapper"></div>
+	<div id="form"s>
+		<h2>Seat Reservation Form</h2>
+		<p id="picked_seat"></p>
+			Name: <input type="text" id="form_name"><br>
+			Email: <input type="email" id="form_email"><br>
+			<input type="hidden" id="current_seat" value="" />
+			<button id="formButton">Reserve</button>
+	</div>
 	<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+html {
+	overflow-y: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+}
+#seat-wrapper {
+	margin: 0 auto;
+	padding-top: 15px;
+	width: 65%;
+}
+#seat-wrapper .available, #seat-wrapper .unavailable {
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: relative;
+	width: 23%;
+	margin: 1%;
+}
+.available {
+	cursor: pointer;
+	background-color:#ddd;
+}
+.available:hover { 
+	background-color: #22c0ce; 
+}
