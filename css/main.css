@@ -29,3 +29,6 @@ html {
 .available:hover { 
 	background-color: #22c0ce; 
 }
+#form {
+	display: none;
+}
