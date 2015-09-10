@@ -5,6 +5,7 @@ var theatre = {
 	name: 'Petite Cirque Theatre',
 	numberOfSeats: 24
 }
+
 function createSeats(){
 	for (var i = 1; i < theatre.numberOfSeats+1; i++){
 		var element = document.createElement('div');
@@ -15,3 +16,8 @@ function createSeats(){
 	}
 };
 createSeats();
+$(function(){
+	$("#seat_").on("click", function(){
+		$( this ).fadeOut( "slow");
+	});
+	});
