@@ -1,31 +1,7 @@
-<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-=======
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-    
->>>>>>> 65bd0007b9c1c21a8f07c9ef45cba39f4c285cbe
 html {
 	overflow-y: -moz-scrollbars-vertical;
 	overflow-y: scroll;
-
-}
-@font-face {
-    font-family: 'CustomFont'; /*a name to be used later*/
-
-
-
-}
-h2{
-	font-family: 'Oswald';
-	text-align: center;
-	opacity: .50;
-	background-color:#fff;
-}
-p{
-	font-family: 'Oswald';
-	text-align: center;
-	opacity: .50;
-	background-color:#fff;
 }
 body {
 	font-family: "Raleway";
@@ -52,39 +28,12 @@ body {
 	width: 24%;
 	margin: 0.5%;
 }
-/*.available {
+.available {
 	cursor: pointer;
-<<<<<<< HEAD
 	background-color:#FF004F;
-=======
-	opacity: .50;
-	background-color:#fff;
-	
 }
-.available:hover { 
-
-	background-color:#ddd;
-	opacity: 1.0;
-	
-}*/
-#form {
-	opacity: .50;
-	 vertical-align: bottom;
-	 background-color: #ddd;
-     bottom: 5px;
-     text-align: center;
->>>>>>> 65bd0007b9c1c21a8f07c9ef45cba39f4c285cbe
-}
-
-body{
-
-	background-color:#000; 
-}
-
-
 #form {
 	display: none;
-<<<<<<< HEAD
 	clear: both;
 	text-align: center;
 }
@@ -117,7 +66,3 @@ p {
 	margin: auto;
 	width: 50%;
 }
-=======
-}
-
->>>>>>> 65bd0007b9c1c21a8f07c9ef45cba39f4c285cbe
