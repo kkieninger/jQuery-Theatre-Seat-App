@@ -1,6 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 html {
 	overflow-y: -moz-scrollbars-vertical;
 	overflow-y: scroll;
+}
+body {
+	font-family: "Raleway";
+	background-color: black;
+	color: white;
 }
 #seat-wrapper {
 	margin: 0 auto;
@@ -24,11 +30,25 @@ html {
 }
 .available {
 	cursor: pointer;
-	background-color:#ddd;
-}
-.available:hover { 
-	background-color: #22c0ce; 
+	background-color:#FF004F;
 }
 #form {
 	display: none;
+}
+h1, p {
+	text-align: center;
+}
+h1 a {
+	width: 178px;
+	height: 97px;
+	display: block;
+	text-indent: -9999px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	background: url('../img/logo.png') no-repeat left center;
+}
+p {
+	margin: auto;
+	width: 50%;
 }
