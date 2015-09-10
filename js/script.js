@@ -16,12 +16,13 @@ $(document).ready(function(){
 		$('#current_seat').val(this.id);
 		$('#chosenSeat').html('You have selected seat ' + this.id.substr(5,6) + '.');
 		$('#formButton').on('click', submitForm);
+		$('#form_name').val("");
+		$('#form_email').val("");
 	}
 	function Reservation(name,email,seat){
 		this.name = name;
 		this.email = email;
 		this.seat = seat;
-		console.log(name, email, seat);
 	}
 	function submitForm(){
 		$('#form').slideUp('fast');
@@ -34,13 +35,11 @@ $(document).ready(function(){
 		updateSeat.addClass('unavailable');
 		updateSeat.removeClass('available');
 		updateSeat.off();
-		$('#form_name').val(' ');
-		$('form_email').val(' ');
-		var reservationName = new Reservation(thisName, thisEmail, thisSeat);
 		updateSeat.hover(function(){
-			updateSeat.html('Reserved by ' + thisName);
+			updateSeat.html(thisName + ", " + thisEmail);
 		}, function(){
 			updateSeat.html('Reserved');
 		});
+		var reservationName = new Reservation(thisName, thisEmail, thisSeat);
 	}
 });
