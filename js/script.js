@@ -1,3 +1,28 @@
+
+
+var seatWrapper = document.getElementById('seat-wrapper');
+var form = document.getElementById('form');
+var theatre = {
+	name: 'Petite Cirque Theatre',
+	numberOfSeats: 24
+}
+
+function createSeats(){
+	for (var i = 1; i < theatre.numberOfSeats+1; i++){
+		var element = document.createElement('div');
+		element.id = "seat_"+i;
+		element.className= 'available';
+		element.innerHTML = i;
+		seatWrapper.appendChild(element);
+	}
+};
+createSeats();
+$(function(){
+	$("#seat_").on("click", function(){
+		$( this ).fadeOut( "slow");
+	});
+	});
+
 $(document).ready(function(){
 	var theatre = {
 		numberOfSeats: 24
@@ -19,8 +44,13 @@ $(document).ready(function(){
 	function submitForm(){
 		$('#form').slideUp('fast');
 	}
+<<<<<<< HEAD
 
 
 
 
 });
+=======
+});
+
+>>>>>>> 65bd0007b9c1c21a8f07c9ef45cba39f4c285cbe
