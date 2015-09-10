@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+
+
+var seatWrapper = document.getElementById('seat-wrapper');
+var form = document.getElementById('form');
+var theatre = {
+	name: 'Petite Cirque Theatre',
+	numberOfSeats: 24
+}
+
+
+
+
+
+=======
+>>>>>>> f35ab63c4db92e4310304d97d074dd259ab1d74c
 $(document).ready(function(){
 	var theatre = {
 		numberOfSeats: 24
@@ -7,8 +23,17 @@ $(document).ready(function(){
 			var id = "seat_" + i;
 			var $newSeat = $('<div class="available" id="' + id + '">'+ i +'</div>');
 			$('#seat-wrapper').append($newSeat);
+<<<<<<< HEAD
 			$('#'+id+'').on('click', displayForm);
+=======
+			$('#seat-wrapper').on('click', displayForm);
+	// 		$("#seat_" + i).on("click", function(){
+	// 		$( this ).fadeOut( "slow");
+	// });
+
+>>>>>>> origin/master
 		}
+
 	};
 	createSeats();
 	function displayForm(id){
@@ -16,6 +41,7 @@ $(document).ready(function(){
 		$('#current_seat').val(this.id);
 		$('#chosenSeat').html('You have selected seat ' + this.id.substr(5,6) + '.');
 		$('#formButton').on('click', submitForm);
+
 	}
 	function Reservation(name,email,seat){
 		this.name = name;
@@ -38,4 +64,22 @@ $(document).ready(function(){
 		$('form_email').val(' ');
 		var reservationName = new Reservation(thisName, thisEmail, thisSeat);
 	}
+<<<<<<< HEAD
 });
+=======
+<<<<<<< HEAD
+
+
+
+
+
+});
+
+});
+
+
+=======
+
+});
+>>>>>>> f35ab63c4db92e4310304d97d074dd259ab1d74c
+>>>>>>> origin/master
