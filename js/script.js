@@ -30,12 +30,17 @@ $(document).ready(function(){
 		var thisEmail = $('#form_email').val();
 		var updateSeat = $('#'+thisSeat+'');
 		var reservationName = thisSeat;
-		updateSeat.html('Reserved by ' + thisName);
+		updateSeat.html('Reserved');
 		updateSeat.addClass('unavailable');
 		updateSeat.removeClass('available');
 		updateSeat.off();
 		$('#form_name').val(' ');
 		$('form_email').val(' ');
 		var reservationName = new Reservation(thisName, thisEmail, thisSeat);
+		updateSeat.hover(function(){
+			updateSeat.html('Reserved by ' + thisName);
+		}, function(){
+			updateSeat.html('Reserved');
+		});
 	}
 });
