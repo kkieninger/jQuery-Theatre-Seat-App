@@ -1,13 +1,4 @@
-
-
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
-@import url(https://fonts.googleapis.com/css?family=Oswald);
-    
-
-
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-
 html {
 	overflow-y: -moz-scrollbars-vertical;
 	overflow-y: scroll;
@@ -21,7 +12,6 @@ body {
 	margin: 0 auto;
 	padding-top: 15px;
 	width: 65%;
-	background-color: #fff;
 }
 #seat-wrapper .available, #seat-wrapper .unavailable {
 	height: 40px;
@@ -35,56 +25,21 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 	position: relative;
-
-	width: 23%;
-	margin: 1%;
-	background-color: #fff;
-
 	width: 24%;
 	margin: 0.5%;
-
 }
 .available {
 	cursor: pointer;
 	background-color:#FF004F;
 }
-<<<<<<< HEAD
 .available:hover {
 	opacity: 0.5;
 }
 .unavailable {
 	background-color: #FF4800;
 }
-=======
-
-.available:hover { 
-
-	background-color:#ddd;
-	opacity: 1.0;
-	
-}*/
-#form {
-	opacity: .50;
-	 vertical-align: bottom;
-	 background-color: #ddd;
-     bottom: 5px;
-     text-align: center;
-
-}
-
-body{
-
-	background-color:#000; 
-}
-
-
-
-
-
->>>>>>> origin/master
 #form {
 	display: none;
-
 	clear: both;
 	text-align: center;
 }
@@ -116,11 +71,4 @@ h1 a {
 p {
 	margin: auto;
 	width: 50%;
-
-}
-
-}
-
-
-
 }
