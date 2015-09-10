@@ -27,6 +27,7 @@ p{
 	margin: 0 auto;
 	padding-top: 15px;
 	width: 65%;
+	background-color: #fff;
 }
 #seat-wrapper .available, #seat-wrapper .unavailable {
 	height: 45px;
@@ -42,6 +43,7 @@ p{
 	position: relative;
 	width: 23%;
 	margin: 1%;
+	background-color: #fff;
 }
 /*.available {
 	cursor: pointer;
