@@ -14,8 +14,8 @@ body {
 	width: 65%;
 }
 #seat-wrapper .available, #seat-wrapper .unavailable {
-	height: 45px;
-	line-height: 45px;
+	height: 40px;
+	line-height: 40px;
 	float: left;
 	text-align: center;
 	-webkit-touch-callout: none;
@@ -25,8 +25,8 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 	position: relative;
-	width: 23%;
-	margin: 1%;
+	width: 24%;
+	margin: 0.5%;
 }
 .available {
 	cursor: pointer;
@@ -34,6 +34,20 @@ body {
 }
 #form {
 	display: none;
+	clear: both;
+	text-align: center;
+}
+#form input {
+	margin-bottom: 10px;
+}
+#form button {
+	font-family: "Raleway";
+	font-size: 1.2em;
+	background-color: #FF4800;
+	border-style: none;
+	color: white;
+	margin-top: 2px;
+	padding: 5px 15px;
 }
 h1, p {
 	text-align: center;
