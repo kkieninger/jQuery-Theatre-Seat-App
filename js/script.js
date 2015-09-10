@@ -4,20 +4,19 @@ $(document).ready(function(){
 	}
 	function createSeats(){
 		for (var i = 1; i < theatre.numberOfSeats+1; i++){
-			var seatId = "seat_" + i;
-			var $newSeat = $('<div class="available" id="' + seatId + '">'+ i +'</div>');
+			var id = "seat_" + i;
+			var $newSeat = $('<div class="available" id="' + id + '">'+ i +'</div>');
 			$('#seat-wrapper').append($newSeat);
-			$('#seat-wrapper').on('click', displayForm);
+			$('#'+id+'').on('click', displayForm);
 		}
 	};
 	createSeats();
-	function displayForm(seatId){
+	function displayForm(id){
 		$('#form').slideDown('fast');
-		$('#chosenSeat').html('You have chosen to reserve seat ' + this.seatId + '.');
+		$('#current_seat').val(this.id);
 		$('#formButton').on('click', submitForm);
 	}
-	function submitForm(){
+	function submitForm(formName, formEmail, formSeat){
 		$('#form').slideUp('fast');
 	}
-
 });
