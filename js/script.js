@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 var seatWrapper = document.getElementById('seat-wrapper');
@@ -11,6 +12,8 @@ var theatre = {
 
 
 
+=======
+>>>>>>> f35ab63c4db92e4310304d97d074dd259ab1d74c
 $(document).ready(function(){
 	var theatre = {
 		numberOfSeats: 24
@@ -38,6 +41,7 @@ $(document).ready(function(){
 	function submitForm(){
 		$('#form').slideUp('fast');
 	}
+<<<<<<< HEAD
 
 
 
@@ -48,3 +52,7 @@ $(document).ready(function(){
 });
 
 
+=======
+
+});
+>>>>>>> f35ab63c4db92e4310304d97d074dd259ab1d74c

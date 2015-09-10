@@ -1,31 +1,16 @@
 
+
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 @import url(https://fonts.googleapis.com/css?family=Oswald);
     
 
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 html {
 	overflow-y: -moz-scrollbars-vertical;
 	overflow-y: scroll;
-
-}
-@font-face {
-    font-family: 'CustomFont'; /*a name to be used later*/
-
-
-
-}
-h2{
-	font-family: 'Oswald';
-	text-align: center;
-	opacity: .50;
-	background-color:#fff;
-}
-p{
-	font-family: 'Oswald';
-	text-align: center;
-	opacity: .50;
-	background-color:#fff;
 }
 body {
 	font-family: "Raleway";
@@ -59,15 +44,11 @@ body {
 	margin: 0.5%;
 
 }
-/*.available {
+.available {
 	cursor: pointer;
-<<<<<<< HEAD
 	background-color:#FF004F;
-=======
-	opacity: .50;
-	background-color:#fff;
-	
 }
+
 .available:hover { 
 
 	background-color:#ddd;
@@ -87,6 +68,9 @@ body{
 
 	background-color:#000; 
 }
+
+
+
 
 
 #form {
@@ -123,8 +107,11 @@ h1 a {
 p {
 	margin: auto;
 	width: 50%;
-}
 
 }
 
+}
 
+
+
+}
