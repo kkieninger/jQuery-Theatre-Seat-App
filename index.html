@@ -10,6 +10,7 @@
 	<title>Lab 11 | jQuery Theatre</title>
 </head>
 <body>
+
 	<div class="col-md-12"><h2>jQuery Theatre</h2></div>
 	<div class="col-md-12"><p>Please select your desired seat<br>
 		Seats are available if they are green<br>
@@ -27,6 +28,19 @@
 	<button id="formButton">Reserve</button></div>
   <div class="col-md-4"></div>
 </div>
+
+	<h1>Theatre</h1>
+	<p>Aenean vitae ipsum augue. Etiam vel sollicitudin elit. Aliquam fermentum suscipit fringilla. Donec tempor et arcu vel viverra.</p>
+	<div id="seat-wrapper"></div>
+	<div id="form">
+		<h2>Seat Reservation Form</h2>
+		<p id="picked_seat"></p>
+			Name: <input type="text" id="form_name"><br>
+			Email: <input type="email" id="form_email"><br>
+			<input type="hidden" id="current_seat" value="" />
+			<button id="formButton">Reserve</button>
+	</div>
+
 	<script src="js/script.js"></script>
 </body>
 </html>
