@@ -32,6 +32,12 @@ body {
 	cursor: pointer;
 	background-color:#FF004F;
 }
+.available:hover {
+	opacity: 0.5;
+}
+.unavailable {
+	background-color: #FF4800;
+}
 #form {
 	display: none;
 	clear: both;
