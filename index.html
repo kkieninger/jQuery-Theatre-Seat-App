@@ -1,46 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-	
-</script>
 	<script src="js/jquery-1.11.3.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Lab 11 | jQuery Theatre</title>
 </head>
 <body>
-
-	<div class="col-md-12"><h2>jQuery Theatre</h2></div>
-	<div class="col-md-12"><p>Please select your desired seat<br>
-		Seats are available if they are green<br>
-		Use the form below to secure your seat</p></div>
-	<div id="seat-wrapper"></div>
-	<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4" id="form">
-  	<div>
-    <h2>Seat Reservation Form</h2></div>
-	<p id="picked_seat"></p>
-	Name: <input type="text" id="form_name"><br>
-	Email: <input type="email" id="form_email"><br>
-	<input type="hidden" id="current_seat" value="" />
-	<button id="formButton">Reserve</button></div>
-  <div class="col-md-4"></div>
-</div>
-
-	<h1>Theatre</h1>
+	<h1><a href="#">Theatre</a></h1>
 	<p>Aenean vitae ipsum augue. Etiam vel sollicitudin elit. Aliquam fermentum suscipit fringilla. Donec tempor et arcu vel viverra.</p>
 	<div id="seat-wrapper"></div>
 	<div id="form">
 		<h2>Seat Reservation Form</h2>
-		<p id="picked_seat"></p>
+		<p id="chosenSeat"></p>
 			Name: <input type="text" id="form_name"><br>
 			Email: <input type="email" id="form_email"><br>
 			<input type="hidden" id="current_seat" value="" />
 			<button id="formButton">Reserve</button>
 	</div>
-
 	<script src="js/script.js"></script>
 </body>
 </html>
